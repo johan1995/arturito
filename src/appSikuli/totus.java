@@ -49,7 +49,7 @@ public class totus {
 			   s.paste("captura3","C:/Users/nilo.inciso/Desktop/artur/03 descarga/05 totus");
 			   s.type(Key.ENTER);
 			   App.pause(2);
-			   s.paste("nombre_archivo2","Tottus-"+fecha.getDate() + fecha.getDay() + fecha.getHours() + fecha.getMinutes());
+			   s.paste("nombre_archivo2","Tottus-"+fecha.getYear() +fecha.getMonth() + fecha.getDay() + fecha.getHours() + fecha.getMinutes() + fecha.getSeconds());
 			   s.type(Key.ENTER);
 			   App.pause(3);
 			   

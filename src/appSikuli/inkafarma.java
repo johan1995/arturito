@@ -67,7 +67,7 @@ public class inkafarma {
 			   s.paste("captura3","C:/Users/nilo.inciso/Desktop/artur/03 descarga/04 inkafarma");
 			   s.type(Key.ENTER);
 			   App.pause(2);
-			   s.paste("nombre_archivo","Inkafarma-Ventas "+fecha.getDate() + fecha.getDay() + fecha.getHours() + fecha.getMinutes() +fecha.getSeconds());
+			   s.paste("nombre_archivo","Inkafarma-Ventas "+fecha.getYear() + fecha.getMonth() + fecha.getDay() + fecha.getHours() + fecha.getMinutes() +fecha.getSeconds());
 			   s.type(Key.ENTER);
 //			   App.pause(10);
 			   s.wait("aceptar_descarga",140);
@@ -96,7 +96,7 @@ public class inkafarma {
 			   s.paste("captura3","C:/Users/nilo.inciso/Desktop/artur/03 descarga/04 inkafarma");
 			   s.type(Key.ENTER);
 			   App.pause(3);
-			   s.paste("nombre_archivo","Inkafarma-Inventario-"+fecha.getDate() + fecha.getDay() + fecha.getHours() + fecha.getMinutes()+fecha.getSeconds());
+			   s.paste("nombre_archivo","Inkafarma-Inventario-"+fecha.getYear() +fecha.getMonth() + fecha.getDay() + fecha.getHours() + fecha.getMinutes()+fecha.getSeconds());
 			   s.type(Key.ENTER);
 			   App.pause(5);
 			   s.wait("aceptar_descarga",140);

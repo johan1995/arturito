@@ -85,11 +85,10 @@ public class supesa {
 		   App.pause(2);
 		   s.paste("nombre_archivo","Supesa-Stock-"+fecha.getYear() +fecha.getMonth() + fecha.getDay() + fecha.getHours() + fecha.getMinutes() + fecha.getSeconds());
 		   s.type(Key.ENTER);
-		   	
 		   s.wait("aceptar_descarga",120);
 		   s.click("cerrar");
-		  App.pause(2);
-		  s.click("cerrar_sesion_supesa");
+		   App.pause(2);
+		   s.click("cerrar_sesion_supesa");
 		  	   }
 catch(FindFailed e){
         e.printStackTrace();

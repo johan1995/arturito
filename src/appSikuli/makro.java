@@ -50,7 +50,7 @@ public class makro {
 			   s.paste("captura3","C:/Users/nilo.inciso/Desktop/artur/03 descarga/06 makro");
 			   s.type(Key.ENTER);
 			   App.pause(2);
-			   s.paste("nombre_archivo3","Makro-"+nombre+fecha.getDate() + fecha.getDay() + fecha.getHours() + fecha.getMinutes());
+			   s.paste("nombre_archivo3","Makro-"+nombre + fecha.getYear()+fecha.getMonth() + fecha.getDay() + fecha.getHours() + fecha.getMinutes() + fecha.getSeconds());
 			   s.type(Key.ENTER);
 			   App.pause(4);
 			   
